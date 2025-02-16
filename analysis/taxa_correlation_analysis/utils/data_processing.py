@@ -1,5 +1,5 @@
 import pandas as pd
-from skbio.stats.composition import clr
+from skbio.stats.composition import clr  # type: ignore
 
 ########################################################
 # Loading Prevalence data for the ASV
