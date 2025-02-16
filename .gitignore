@@ -17,12 +17,13 @@ qiime/*
 !qiime/
 !qiime/unweighted_unifrac_distance_matrix/
 !qiime/unweighted_unifrac_distance_matrix/*.zip
+!qiime/exported_rep_seqs/
+!qiime/exported_rep_seqs/**
 
 qiime/unweighted_unifrac_distance_matrix/distance-matrix.tsv
 
-
 # Python
-__pycache__/
+**pycache**/
 *.py[cod]
 *.so
 .Python
