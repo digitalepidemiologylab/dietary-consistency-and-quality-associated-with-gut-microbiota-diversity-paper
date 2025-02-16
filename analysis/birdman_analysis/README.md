@@ -35,10 +35,10 @@ This repository contains the analysis pipeline and results for investigating die
      - Correlation analysis between different nutritional variables
      - Bipartite network visualization of microbe-feature relationships
    - Required input files:
-     - Partial correlation data (data/partial_corr_across_feats.csv)
+     - Partial correlation data (data/partial_corr_across_feats.csv ; unzip file)
      - Taxonomy mappings (qiime/taxonomy_rarefied-table_2024_09/taxonomy.tsv)
      - Metadata (data/fay_meta_diets.csv)
-     - Rarefied table (qiime/table_rarefied.tsv)
+     - Rarefied table (qiime/table_rarefied.tsv ; unzip file)
      - Microbe prevalence data (data/prevalence_microbes.csv)
    - Generates multiple visualization outputs:
      - Differential abundance counts (figures/birdman_analysis/diff_abun_counts.png)
@@ -71,7 +71,7 @@ Required Python packages: BIRDMan_cli, numpy, pandas, matplotlib, seaborn, netwo
    python filter_biom_and_metadata.py
    ```
 
-2. **Run BIRDMan Analysis**
+2. **Run BIRDMan Analysis (ON SLURM)**
    ```bash
    # Create a variables.txt file with variables to analyze
    bash submit_jobs_sequentially.sh variables.txt

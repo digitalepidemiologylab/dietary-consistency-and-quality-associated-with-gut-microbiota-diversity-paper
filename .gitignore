@@ -5,15 +5,21 @@ data/*
 **/*meta*.csv
 **/*meta*.tsv
 
-data/partial_corr_across_feats.csv
-
 # Large QIIME files
-qiime/*
-!qiime/*.zip
 *.qza
 *.qzv
 *.biom
-table_rarefied.tsv
+
+# Ignore everything in qiime directory
+qiime/*
+
+# But don't ignore these specific paths and files
+!qiime/
+!qiime/unweighted_unifrac_distance_matrix/
+!qiime/unweighted_unifrac_distance_matrix/*.zip
+
+qiime/unweighted_unifrac_distance_matrix/distance-matrix.tsv
+
 
 # Python
 __pycache__/
