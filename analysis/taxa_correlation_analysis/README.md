@@ -1,18 +1,25 @@
 # Taxa Correlation Analysis
 
-This directory contains utilities and scripts for analyzing and visualizing taxonomic correlations in microbiome data. The code specifically supports the creation of two visualization types:
+This directory contains utilities and scripts for analyzing and visualizing taxonomic correlations in microbiome data. The code supports multiple types of analyses:
 
-1. Radial plots showing relationships between microbial abundance and various metadata variables
-2. Taxa correlation heatmaps displaying spanning multiple taxa (from BIRDMan) and dietary features
+1. Diet-Microbiome Correlations:
+   - Radial plots showing relationships between microbial abundance and various metadata variables
+   - Taxa correlation heatmaps displaying spanning multiple taxa (from BIRDMan) and dietary features
+   - Forms Figure 3 in the paper
+
+2. Stool Quality Analysis:
+   - Partial correlations between microbiome composition and stool quality metrics
+   - Focus on diarrhea proportion analysis
 
 ## Directory Structure
 
 ```
 .
-├── run_taxa_correlations_and_plot.ipynb  # Main notebook for running analyses
-└── utils/                                # Utility functions
-    ├── data_processing.py               # Data processing and transformation functions
-    └── plotting_functions.py            # Visualization and plotting utilities
+├── run_taxa_correlations_and_plot.ipynb     # Main notebook for dietary analysis
+├── run_taxa_correlations_stool_quality.ipynb # Notebook for stool quality analysis
+└── utils/                                   # Utility functions
+    ├── data_processing.py                  # Data processing and transformation functions
+    └── plotting_functions.py               # Visualization and plotting utilities
 ```
 
 ## Core Components
@@ -25,7 +32,7 @@ Key functionalities:
 - Filtering microbes based on prevalence thresholds
 - Creating data quartiles for analysis
 - Processing taxonomic names and strings
-- Summarizing microbe-food variable relationships
+- Summarizing microbe-variable relationships
 - Extracting and formatting taxonomy information at different levels (species, genus, family, etc.)
 
 ### Plotting Functions (`utils/plotting_functions.py`)
@@ -35,17 +42,19 @@ Implements visualization functions for:
 - Generating complex heatmaps with taxonomic annotations
 - Handling partial correlations and statistical significance (FDR-adjusted p-values)
 - Managing color schemes for different taxonomic levels
-- Creating custom legends and annotations for both plot types
+- Creating custom legends and annotations
 - Supporting hierarchical clustering visualization
 
-### Main Notebook
+### Analysis Notebooks
 
-The `run_taxa_correlations_and_plot.ipynb` notebook implements the following pipeline:
+#### Dietary Analysis (`run_taxa_correlations_and_plot.ipynb`)
+
+Implements the following pipeline:
 
 1. Data Loading and Processing:
    - Loads metadata and count data
    - Applies CLR transformation on count data
-   - Filters microbes based on prevalence (threshold = 0.05) 
+   - Filters microbes based on prevalence (threshold = 0.05)
    - Saves prevalence to root data folder
 
 2. Correlation Analysis:
@@ -60,42 +69,50 @@ The `run_taxa_correlations_and_plot.ipynb` notebook implements the following pip
 
 4. Saves the final figure to `../../figures/taxa_correlation_analysis/Fig3.png`
 
+#### Stool Quality Analysis (`run_taxa_correlations_stool_quality.ipynb`)
+
+Performs analysis of microbiome associations with stool quality:
+
+1. Data Processing:
+   - Loads and transforms stool quality data
+   - Processes taxonomy
+
+2. Analysis:
+   - Calculates correlations with diarrhea
+   - Controls for age and BMI
+
+3. Output:
+   - Saves results to `../../data/partial_correlations_microbe_to_diarrhea.csv`
+
 ## Usage
 
-To use this analysis pipeline:
-
-1. Ensure your data follows the expected structure:
+1. The data should follow this structure:
    - ASV count data: `../../qiime/table_rarefied.tsv`
    - Taxonomy data (one of):
      - `../../qiime/taxonomy_rarefied-table_2022_10/taxonomy.tsv`
      - `../../qiime/taxonomy_rarefied-table_2024_09/taxonomy.tsv`
-   - Metadata: `../../data/fay_meta_diets.csv`
+   - Metadata:
+     - Dietary analysis: `../../data/fay_meta_diets.csv`
+     - Stool quality analysis: `../../data/stool_quality_meta.csv`
    - Birdman analysis results in `../birdman_analysis/outputs/`
 
-2. Run the Jupyter notebook `run_taxa_correlations_and_plot.ipynb`
-
-3. The resulting figure will be saved as `Fig3.png` in `../../figures/taxa_correlation_analysis/`
+2. Run the desired analysis notebook:
+   - For dietary correlations: `run_taxa_correlations_and_plot.ipynb`
+   - For stool quality analysis: `run_taxa_correlations_stool_quality.ipynb`
+   - After this, go to stool_quality_analysis folder for further analysis.
 
 ## Dependencies
 
 Required Python packages:
-- pandas, numpy, matplotlib, seaborn, scikit-bio (for CLR transformation) 
+- pandas, numpy, matplotlib, seaborn, scikit-bio (for CLR transformation)
 - pingouin (for partial correlations), statsmodels, tqdm (for progress bars)
 
-## Output Visualizations
+## Output Files
 
-The pipeline generates a combined figure with multiple panels:
+1. Dietary Analysis:
+   - Combined figure (`Fig3.png`) in `../../figures/taxa_correlation_analysis/`
+   - Contains correlation heatmap and radial plots
 
-1. **Correlation Heatmap (Panel A)**:
-   - Shows correlations between taxa and dietary variables
-   - Includes statistical significance annotations (* q<0.05, ** q<0.01, *** q<0.001)
-   - Features hierarchical clustering
-   - Color-coded by taxonomic order
-
-2. **Radial Plots (Panels B-D)**:
-   - Individual plots for selected taxa
-   - Shows relationship with 10 key dietary variables
-   - Bars indicate Q4 (highest quartile) median values
-   - Dots show Q1 (lowest quartile) median values
-   - Color-coded by correlation strength using PiYG color scheme
-   - Includes prevalence percentage in the center
+2. Stool Quality Analysis:
+   - Partial correlations results in `../../data/partial_correlations_microbe_to_diarrhea.csv`
+   - Includes correlation coefficients and taxonomic information for each ASV
