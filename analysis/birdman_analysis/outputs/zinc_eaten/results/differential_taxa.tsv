@@ -1,0 +1,2 @@
+	Feature	Intercept_mean	zinc_eaten_mean	Intercept_std	zinc_eaten_std	Intercept_hdi	zinc_eaten_hdi	lower	upper	credible	Taxon
+400	64d05989cb6f8053633b2127793200b3	-7.506930869999999	7.8977150966049985	0.0633285239962459	4.534205868935318	(-7.62162, -7.38534)	(0.00848151, 16.737)	7.889233586604998	8.839284903395	yes	d__Bacteria; p__Bacillota_A_368345; c__Clostridia_258483; o__Lachnospirales; f__Lachnospiraceae; g__Mediterraneibacter_A_155507; s__Mediterraneibacter_A_155507 faecis

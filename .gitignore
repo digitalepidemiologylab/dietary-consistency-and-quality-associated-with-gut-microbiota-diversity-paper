@@ -1,14 +1,19 @@
 # Sensitive data
-metadata_files/
+data/*
+!data/*.zip
 **/metadata/
 **/*meta*.csv
 **/*meta*.tsv
 
+data/partial_corr_across_feats.csv
+
 # Large QIIME files
-qiime_processed_files/
+qiime/*
+!qiime/*.zip
 *.qza
 *.qzv
 *.biom
+table_rarefied.tsv
 
 # Python
 __pycache__/
