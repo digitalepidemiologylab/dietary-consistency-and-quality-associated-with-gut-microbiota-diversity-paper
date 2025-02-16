@@ -1,0 +1,32 @@
+# Sensitive data
+metadata_files/
+**/metadata/
+**/*meta*.csv
+**/*meta*.tsv
+
+# Large QIIME files
+qiime_processed_files/
+*.qza
+*.qzv
+*.biom
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
