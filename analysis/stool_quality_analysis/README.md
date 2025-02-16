@@ -7,8 +7,6 @@ This directory contains code for analyzing relationships between stool quality, 
 .
 ├── prep_stool_quality_meta.ipynb
 └── utils/
-    ├── __pycache__/
-    │   └── data_processing.cpython-38.pyc
     └── data_processing.py
 ```
 
