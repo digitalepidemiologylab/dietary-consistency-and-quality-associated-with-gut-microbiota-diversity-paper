@@ -10,6 +10,8 @@ from utils.model_utils import (
     model_feature_classifier_performance,
     model_feature_regressor_performance,
 )
+import pickle
+
 
 # Analysis parameters
 TOP_N_FEATS = 40
@@ -36,6 +38,8 @@ def main():
     performance_reg_all_mb = {}
     performance_auroc_all_mb = {}
     performance_auprc_all_mb = {}
+    performance_precision_all_mb = {}
+    performance_recall_all_mb = {}
     featImp_top_all_mb = pd.DataFrame()
 
     # Run analysis for each variable
@@ -60,22 +64,30 @@ def main():
             make_quartiles = True
 
         # Run classifier
-        auroc_iters, auprc_iters, featImp_iters, fpr_iters, tpr_iters = (
-            model_feature_classifier_performance(
-                meta,
-                counts_data,
-                col,
-                levels=levels,
-                num_iter=NUM_ITER_CLR,
-                make_quartiles=make_quartiles,
-                plot_conf_matrix=False,
-                plot_feature_importance=False,
-            )
+        (
+            auroc_iters,
+            auprc_iters,
+            featImp_iters,
+            fpr_iters,
+            tpr_iters,
+            precision_iters,
+            recall_iters,
+        ) = model_feature_classifier_performance(
+            meta,
+            counts_data,
+            col,
+            levels=levels,
+            num_iter=NUM_ITER_CLR,
+            make_quartiles=make_quartiles,
+            plot_conf_matrix=False,
+            plot_feature_importance=False,
         )
 
         # Store classification results
         performance_auroc_all_mb[col] = auroc_iters
         performance_auprc_all_mb[col] = auprc_iters
+        # performance_precision_all_mb[col] = precision_iters
+        # performance_recall_all_mb[col] = recall_iters
 
         # Process feature importances
         featImp_iters_combined = combine_feature_importances(featImp_iters).set_index(
@@ -110,9 +122,15 @@ def main():
     pd.DataFrame(performance_auroc_all_mb).round(2).to_csv(
         "./results/classifier_performance_auroc.csv"
     )
-    # pd.DataFrame(performance_auprc_all_mb).round(2).to_csv(
-    #     "./results/classifier_performance_auprc.csv"
-    # )
+    pd.DataFrame(performance_auprc_all_mb).round(2).to_csv(
+        "./results/classifier_performance_auprc.csv"
+    )
+    with open("./results/precision_data.pkl", "wb") as f:
+        pickle.dump(performance_precision_all_mb, f)
+
+    with open("./results/recall_data.pkl", "wb") as f:
+        pickle.dump(performance_recall_all_mb, f)
+
     pd.DataFrame(performance_reg_all_mb).round(2).to_csv(
         "./results/regressor_performance.csv"
     )

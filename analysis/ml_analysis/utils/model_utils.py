@@ -58,6 +58,7 @@ def train_and_evaluate_classifier(
         subsample=subsample,
         colsample_bytree=colsample_bytree,
         random_state=random_state,
+        alpha=0.1,
         n_jobs=-1,
         eval_metric="logloss",
     )
@@ -79,7 +80,7 @@ def train_and_evaluate_classifier(
         by="Importance", ascending=False
     ).reset_index(drop=True)
 
-    return roc_auc, pr_auc, feature_importances, (fpr, tpr)
+    return roc_auc, pr_auc, feature_importances, (fpr, tpr), (precision, recall)
 
 
 def model_feature_classifier_performance(
@@ -137,26 +138,32 @@ def model_feature_classifier_performance(
     feat_imp_iters = []
     fpr_iters = []
     tpr_iters = []
+    precision_iters = {}
+    recall_iters = {}
 
     for i in range(num_iter):
-        roc_auc_res, pr_auc_res, feat_imp, (fpr, tpr) = train_and_evaluate_classifier(
-            data,
-            target_col,
-            test_size=0.2,
-            random_state=i,
-            n_estimators=n_estimators,
-            max_depth=max_depth,
-            eta=eta,
-            subsample=subsample,
-            colsample_bytree=colsample_bytree,
-            plot_conf_matrix=plot_conf_matrix,
-            plot_feature_importance=plot_feature_importance,
+        roc_auc_res, pr_auc_res, feat_imp, (fpr, tpr), (precision, recall) = (
+            train_and_evaluate_classifier(
+                data,
+                target_col,
+                test_size=0.2,
+                random_state=i,
+                n_estimators=n_estimators,
+                max_depth=max_depth,
+                eta=eta,
+                subsample=subsample,
+                colsample_bytree=colsample_bytree,
+                plot_conf_matrix=plot_conf_matrix,
+                plot_feature_importance=plot_feature_importance,
+            )
         )
         roc_auc_iters.append(roc_auc_res)
         pr_auc_iters.append(pr_auc_res)
         feat_imp_iters.append(feat_imp)
         fpr_iters.append(fpr)
         tpr_iters.append(tpr)
+        precision_iters[i] = precision
+        recall_iters[i] = recall
 
     if verbose:
         print(
@@ -168,7 +175,15 @@ def model_feature_classifier_performance(
             f"Stdev: {np.std(pr_auc_iters):.3f}\n"
         )
 
-    return roc_auc_iters, pr_auc_iters, feat_imp_iters, fpr_iters, tpr_iters
+    return (
+        roc_auc_iters,
+        pr_auc_iters,
+        feat_imp_iters,
+        fpr_iters,
+        tpr_iters,
+        precision_iters,
+        recall_iters,
+    )
 
 
 def model_feature_regressor_performance(
