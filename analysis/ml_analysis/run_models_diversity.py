@@ -56,6 +56,7 @@ def analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50):
     - tuple of (classification results, feature importance DataFrame)
     """
     diversity_clf_res = {}
+    diversity_clf_auprc = {}
     diversity_clf_featImp = {}
 
     for col_target in diversity_metrics:
@@ -67,7 +68,7 @@ def analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50):
         v["PDI_Quintile"] = v["PDI_Quintile"].astype(int)
 
         # Define columns
-        categ_cols_clf = ["gender", "swiss_citizen"]
+        categ_cols_clf = ["gender", "swiss_citizen", "income", "smoking"]
 
         cv_vars = get_cv_vars(meta)  # Import this from config.variables
 
@@ -112,7 +113,8 @@ def analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50):
         print(f"Data shape: {v.shape}")
 
         # Run classification iterations
-        res_clf_mv = []
+        res_clf_auroc = []
+        res_clf_auprc = []
         res_clf_featImp = []
 
         for i in tqdm(range(n_iterations)):
@@ -125,13 +127,16 @@ def analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50):
                 plot_conf_matrix=False,
                 plot_feature_importance=False,
             )
-            res_clf_mv.append(results[0])  # ROC AUC
+            res_clf_auroc.append(results[0])  # ROC AUC
+            res_clf_auprc.append(results[1])  # PR AUC
             res_clf_featImp.append(
                 results[2].set_index("Feature")
             )  # Feature importance
 
-        print(f"{col_target} average performance: {round(np.mean(res_clf_mv), 3)}")
-        diversity_clf_res[process_string(col_target)] = res_clf_mv
+        print(f"{col_target} average performance: {round(np.mean(res_clf_auroc), 3)}")
+        diversity_clf_res[process_string(col_target)] = res_clf_auroc
+        print(f"{col_target} average PR AUC: {round(np.mean(res_clf_auprc), 3)}")
+        diversity_clf_auprc[process_string(col_target)] = res_clf_auprc
 
         # Process feature importance
         avg_featImp = (
@@ -143,7 +148,7 @@ def analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50):
         avg_featImp.rename(columns={"Importance": col_target}, inplace=True)
         diversity_clf_featImp[col_target] = avg_featImp
 
-    return diversity_clf_res, diversity_clf_featImp
+    return diversity_clf_res, diversity_clf_auprc, diversity_clf_featImp
 
 
 def combine_feature_importance(diversity_clf_featImp, metrics):
@@ -178,8 +183,8 @@ def main():
     ]
 
     # Run analysis
-    diversity_clf_res, diversity_clf_featImp = analyze_diversity_metrics(
-        meta, diversity_metrics, n_iterations=50
+    diversity_clf_res, diversity_clf_auprc, diversity_clf_featImp = (
+        analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50)
     )
 
     # Combine and sort feature importance results
@@ -191,6 +196,9 @@ def main():
     print("\nSaving results...")
     pd.DataFrame(diversity_clf_res).to_csv(
         "./results/classifier_performance_diversity_auroc.csv"
+    )
+    pd.DataFrame(diversity_clf_auprc).to_csv(
+        "./results/classifier_performance_diversity_auprc.csv"
     )
     diversity_clf_featImp_df.to_csv("./results/clr_featImp_diversity.csv")
     print("Analysis complete!")
