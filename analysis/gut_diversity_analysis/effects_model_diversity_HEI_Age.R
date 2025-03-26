@@ -79,18 +79,7 @@ ggsave("../../figures/gut_diversity_analysis/effects_model_HEI_age_shannon.png",
        dpi = 300)
 
 ####################################################################################################
-# 
-# triple_interaction_model <- lm(shannon_entropy ~  HEI * bmi_cat * age_group_2 + gender, data = data)
-# summary(triple_interaction_model)
-# 
-# 
-# # Create the plot
-# p <- plot_model(triple_interaction_model, type = "pred", terms = c("HEI", "bmi_cat", "age_group_2"), 
-#                 title = "Predicted Shannon Entropy by HEI Score, BMI, and Age Group",
-#                 axis.title = c("HEI Score", "Shannon Entropy"),
-#                 legend.title = "BMI")
-# 
-# # Modify the plot to remove minor grid lines
-# p + theme(panel.grid.minor = element_blank())
+no_interaction_model <- lm(shannon_entropy ~  HEI + gender +  bmi + age + smoking + eaten_quantity_in_gram + general_hunger_level + defecate_quantity_per_day, data = data)
+summary(no_interaction_model)
 
 ####################################################################################################
