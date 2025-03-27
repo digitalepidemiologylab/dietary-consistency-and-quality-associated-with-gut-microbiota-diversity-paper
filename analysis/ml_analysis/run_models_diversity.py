@@ -68,7 +68,7 @@ def analyze_diversity_metrics(meta, diversity_metrics, n_iterations=50):
         v["PDI_Quintile"] = v["PDI_Quintile"].astype(int)
 
         # Define columns
-        categ_cols_clf = ["gender", "swiss_citizen", "income", "smoking"]
+        categ_cols_clf = ["gender", "swiss_citizen"]
 
         cv_vars = get_cv_vars(meta)  # Import this from config.variables
 
