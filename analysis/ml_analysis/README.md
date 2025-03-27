@@ -38,6 +38,11 @@ Objective 2: alpha diversity metrics using nutritional and anthropometric data.
 The primary script for running the Objective 1 of the ML analysis pipeline.
 - Builds both classification and regression models (100 iterations for each variable)
 - Outputs performance metrics and feature importance scores in the results directory
+- Note: Runs for all variables in the config/variables.py file
+
+### run_models_simple.py
+A simplified version of the ML analysis pipeline for quicker testing and demonstration.
+- Runs for only 1 target variable at a time
 
 ### run_models_diversity.py
 For Objective 2 of the ML analysis pipeline.
