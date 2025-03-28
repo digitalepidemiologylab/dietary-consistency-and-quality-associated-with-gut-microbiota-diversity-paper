@@ -21,12 +21,14 @@ Objective 2: alpha diversity metrics using nutritional and anthropometric data.
 ├── results/
 │   ├── Supplementary_File_2.xls
 │   ├── classifier_performance_auroc.csv
+│   ├── classifier_performance_auprc.csv
 │   ├── classifier_performance_diversity_auroc.csv
 │   ├── clr_featImp.csv
 │   ├── clr_featImp_diversity.csv
 │   └── regressor_performance_full.csv
 ├── run_models.py
 ├── run_models_diversity.py
+├── run_models_simple.py
 └── utils/
     ├── data_processing.py
     └── model_utils.py
