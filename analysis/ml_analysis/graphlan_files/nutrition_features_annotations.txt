@@ -323,7 +323,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacteri
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_alpha	2	1.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_alpha	3	0.8119460329795946
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_alpha	3	0.5218742719227772
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_alpha	4	1.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_J.Eubacterium_J plexicaudatum	ring_color	4	indigo
@@ -339,7 +339,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbry
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_alpha	2	0.9715447512894242
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_alpha	3	0.7981301285498477
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_alpha	3	0.7408677168994529
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_alpha	4	0.46964261995632006
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Marvinbryantia.Marvinbryantia sp900066075	ring_color	4	indigo
@@ -371,7 +371,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp0004313
 Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_alpha	2	0.8758471068659013
 Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_alpha	3	0.7320025353269647
+Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_alpha	3	0.702321785780482
 Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_alpha	4	0.44445771775227016
 Bacteria.Firmicutes_A.Clostridia_258483.TANB77.CAG-508.CAG-269.CAG-269 sp000431335	ring_color	4	indigo
@@ -387,7 +387,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospi
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_alpha	2	0.7292628967921428
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_alpha	3	0.7506112083483747
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_alpha	3	0.5595168605508638
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira	ring_color	4	indigo
@@ -403,7 +403,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatric
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_alpha	2	0.694814412548695
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_alpha	3	0.738762653747711
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_alpha	3	0.509659109473195
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Bariatricus.Coprococcus comes	ring_color	4	indigo
@@ -419,7 +419,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_ed
 Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_alpha	2	0.6875094365883127
 Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_alpha	3	0.0
+Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_alpha	3	0.5303368232183464
 Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Christensenellales.CAG-74.SFMI01	ring_color	4	indigo
@@ -435,7 +435,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribac
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_alpha	2	0.6796883812644009
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_alpha	3	0.8145845497409856
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_alpha	3	0.6374614987420962
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_alpha	4	0.42342073566657523
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Butyribacter.Butyribacter sp001916135	ring_color	4	indigo
@@ -467,7 +467,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimon
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_alpha	2	0.6507194396634016
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_alpha	3	0.6523840158364502
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_alpha	3	0.5631187797586059
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Ventrimonas.Ventrimonas sp003481825	ring_color	4	indigo
@@ -483,7 +483,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterra
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_alpha	2	0.637346190897445
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_alpha	3	0.64580399921306
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_alpha	3	0.5265772042017861
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 faecis	ring_color	4	indigo
@@ -499,7 +499,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clos
 Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_alpha	2	0.6275784293436361
 Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_alpha	3	0.7307780088716853
+Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_alpha	3	0.5494056294358319
 Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Clostridiales.Clostridiaceae_222000.Clostridium_T.Clostridium_T chartatabidum	ring_color	4	indigo
@@ -627,7 +627,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.D
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_alpha	2	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_alpha	3	0.7870611862373518
+Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_alpha	3	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_alpha	4	0.5418479980996096
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Oscillospiraceae_88309.Dysosmobacter.Dysosmobacter welbionis	ring_color	4	indigo
@@ -659,7 +659,7 @@ Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclo
 Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_edge_width	1	1
 Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_alpha	2	0.0
 Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_color	2	darkorange
-Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_alpha	3	0.6791881212155735
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_alpha	3	0.5350415418152593
 Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_color	3	green
 Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_alpha	4	0.0
 Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium spiroforme	ring_color	4	indigo
@@ -691,7 +691,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativi
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_alpha	2	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_alpha	3	0.7019727975270013
+Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_alpha	3	0.501690360570559
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Negativibacillus.Negativibacillus massiliensis	ring_color	4	indigo
@@ -797,6 +797,22 @@ Bacteria.Actinobacteriota.Coriobacteriia.Coriobacteriales.Eggerthellaceae.Ellagi
 Bacteria.Actinobacteriota.Coriobacteriia.Coriobacteriales.Eggerthellaceae.Ellagibacter.Ellagibacter isourolithinifaciens	ring_color	6	red
 Bacteria.Actinobacteriota.Coriobacteriia.Coriobacteriales.Eggerthellaceae.Ellagibacter.Ellagibacter isourolithinifaciens	ring_alpha	7	0.2993951612903225
 Bacteria.Actinobacteriota.Coriobacteriia.Coriobacteriales.Eggerthellaceae.Ellagibacter.Ellagibacter isourolithinifaciens	ring_color	7	darkcyan
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_shape	1	v
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	1	dimgrey
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_edge_color	1	black
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_edge_width	1	1
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_alpha	2	0.0
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	2	darkorange
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_alpha	3	0.5737700437846366
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	3	green
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_alpha	4	0.0
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	4	indigo
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_alpha	5	0.0
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	5	saddlebrown
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_alpha	6	0.0
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	6	red
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_alpha	7	0.4264112903225806
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Roseburia.Roseburia hominis	ring_color	7	darkcyan
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Blautia_A_141781.Blautia_A_141781 hydrogenotrophica	ring_shape	1	v
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Blautia_A_141781.Blautia_A_141781 hydrogenotrophica	ring_color	1	dimgrey
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Blautia_A_141781.Blautia_A_141781 hydrogenotrophica	ring_edge_color	1	black
@@ -883,7 +899,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterra
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_alpha	2	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_alpha	3	0.0
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_alpha	3	0.4995273433361029
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Mediterraneibacter_A_155507.Mediterraneibacter_A_155507 torques	ring_color	4	indigo
@@ -899,7 +915,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	r
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_alpha	2	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_alpha	3	0.6004540426401789
+Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_alpha	3	0.48754707405707604
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_alpha	4	0.5025092857183
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Ruminococcaceae.Phocea	ring_color	4	indigo
@@ -915,7 +931,7 @@ Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospi
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_alpha	2	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_alpha	3	0.7887411379781325
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_alpha	3	0.6569778004960772
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Lachnospira.Lachnospira eligens	ring_color	4	indigo
@@ -973,6 +989,22 @@ Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Acutalibacteraceae.CAG-1
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Acutalibacteraceae.CAG-177.CAG-177 sp003538135	ring_color	6	red
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Acutalibacteraceae.CAG-177.CAG-177 sp003538135	ring_alpha	7	0.3548387096774194
 Bacteria.Firmicutes_A.Clostridia_258483.Oscillospirales.Acutalibacteraceae.CAG-177.CAG-177 sp003538135	ring_color	7	darkcyan
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_shape	1	v
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	1	dimgrey
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_edge_color	1	black
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_edge_width	1	1
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_alpha	2	0.0
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	2	darkorange
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_alpha	3	0.5110978129667137
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	3	green
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_alpha	4	0.0
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	4	indigo
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_alpha	5	0.0
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	5	saddlebrown
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_alpha	6	0.0
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	6	red
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_alpha	7	0.1824596774193548
+Bacteria.Firmicutes_D.Bacilli.Acholeplasmatales.Anaeroplasmataceae.CAG-307	ring_color	7	darkcyan
 Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionaceae.Bilophila.Bilophila wadsworthia	ring_shape	1	v
 Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionaceae.Bilophila.Bilophila wadsworthia	ring_color	1	dimgrey
 Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionaceae.Bilophila.Bilophila wadsworthia	ring_edge_color	1	black
@@ -989,29 +1021,13 @@ Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionac
 Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionaceae.Bilophila.Bilophila wadsworthia	ring_color	6	red
 Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionaceae.Bilophila.Bilophila wadsworthia	ring_alpha	7	0.7469758064516129
 Bacteria.Desulfobacterota_I.Desulfovibrionia.Desulfovibrionales.Desulfovibrionaceae.Bilophila.Bilophila wadsworthia	ring_color	7	darkcyan
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_shape	1	v
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	1	dimgrey
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_edge_color	1	black
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_edge_width	1	1
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_alpha	2	0.0
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_alpha	3	0.6021355578627272
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	3	green
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_alpha	4	0.0
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	4	indigo
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_alpha	5	0.0
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	5	saddlebrown
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_alpha	6	0.0
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	6	red
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_alpha	7	0.5
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.Eubacterium_I	ring_color	7	darkcyan
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_shape	1	v
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_color	1	dimgrey
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_edge_color	1	black
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_edge_width	1	1
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_alpha	2	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_color	2	darkorange
-Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_alpha	3	0.7826891449382258
+Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_alpha	3	0.5425761085934716
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_color	3	green
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_alpha	4	0.0
 Bacteria.Firmicutes_A.Clostridia_258483.Lachnospirales.Lachnospiraceae.CAG-95.CAG-95 sp900066375	ring_color	4	indigo
@@ -1277,3 +1293,19 @@ Bacteria.Verrucomicrobiota.Verrucomicrobiae.Opitutales.CAG-312.Merdousia.Merdous
 Bacteria.Verrucomicrobiota.Verrucomicrobiae.Opitutales.CAG-312.Merdousia.Merdousia sp000438015	ring_color	6	red
 Bacteria.Verrucomicrobiota.Verrucomicrobiae.Opitutales.CAG-312.Merdousia.Merdousia sp000438015	ring_alpha	7	0.0816532258064516
 Bacteria.Verrucomicrobiota.Verrucomicrobiae.Opitutales.CAG-312.Merdousia.Merdousia sp000438015	ring_color	7	darkcyan
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_shape	1	v
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	1	dimgrey
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_edge_color	1	black
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_edge_width	1	1
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_alpha	2	0.0
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	2	darkorange
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_alpha	3	0.5936571973496538
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	3	green
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_alpha	4	0.0
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	4	indigo
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_alpha	5	0.0
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	5	saddlebrown
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_alpha	6	0.0
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	6	red
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_alpha	7	0.3125
+Bacteria.Firmicutes_D.Bacilli.Erysipelotrichales.Coprobacillaceae.Erysipelatoclostridium.Clostridium saccharogumia	ring_color	7	darkcyan

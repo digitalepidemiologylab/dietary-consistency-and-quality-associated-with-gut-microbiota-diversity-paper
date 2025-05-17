@@ -24,7 +24,7 @@ NUM_ITER_REG = 20  # Modify this to reduce the number of iterations!
 def main():
     """Run the main analysis pipeline."""
     # Load data
-    meta = pd.read_csv("../../data/plant_diversity_meta.csv")
+    meta = pd.read_csv("../../data/fay_meta_diets.csv")
     counts_data = pd.read_csv("../../data/counts_data_with_taxonomy.csv", index_col=0)
 
     # Preprocess urbanity
@@ -45,7 +45,7 @@ def main():
     featImp_top_all_mb = pd.DataFrame()
 
     # Run analysis for each variable
-    for col in ["smoking"]:
+    for col in ["vegetables_fruits", "oils_fats_nuts"]:
         # for col in variables_to_analyze:  # Modify this to run a subset of the variables!
         print(f"\nProcessing variable: {col}")
 
