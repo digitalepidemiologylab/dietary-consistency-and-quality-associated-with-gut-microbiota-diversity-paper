@@ -292,6 +292,9 @@ p_boxplots <- (
     tag_levels = list(c("E", "F", "G", "H", "I", "J")),
     tag_prefix = '',
     tag_suffix = '',
+  )&
+  theme(
+    plot.tag = element_text(face = "bold", size = 16)
   )
 
 ggsave(filename = "../../figures/gut_diversity_analysis/figure1_boxplots.png", plot = p_boxplots, width = 11, height = 7, dpi = 300, units = "in")

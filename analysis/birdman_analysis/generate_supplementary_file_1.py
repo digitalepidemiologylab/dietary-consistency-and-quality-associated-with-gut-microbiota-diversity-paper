@@ -52,6 +52,7 @@ vars_for_cohort_comparison = [
     "iron_eaten",
     "phosphorus_eaten",
     "potassium_eaten",
+    "daily_HEI",
     "HEI",
     "meat_fg_eaten",
     "fruits_fg_eaten",
