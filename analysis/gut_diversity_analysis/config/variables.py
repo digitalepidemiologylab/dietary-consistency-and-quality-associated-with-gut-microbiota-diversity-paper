@@ -77,6 +77,7 @@ NUTRI_FG_VARS = [
 ]
 
 NUTRI_DI_VARS = [
+    "daily_HEI",
     "HEI",
     "aMED",
     "DASH",

@@ -83,3 +83,6 @@ no_interaction_model <- lm(shannon_entropy ~  HEI + gender +  bmi + age + smokin
 summary(no_interaction_model)
 
 ####################################################################################################
+no_interaction_model_dailyHEI <- lm(shannon_entropy ~  daily_HEI + gender +  bmi + age + smoking + eaten_quantity_in_gram + general_hunger_level + defecate_quantity_per_day, data = data)
+summary(no_interaction_model_dailyHEI)
+####################################################################################################
