@@ -1,6 +1,6 @@
 # Dietary Consistency and Quality Associated with Gut Microbiota Diversity
 
-This repository contains analysis code and data for investigating associations between dietary patterns, consistency, and gut microbiota diversity using detailed temporal nutrition data from the "Food & You" digital cohort (2019-2022) conducted in Switzerland with 1000+ participants.
+This repository contains analysis code and data for investigating associations between dietary patterns, consistency, and gut microbiota diversity using detailed temporal nutrition data from the "Food & You" digital cohort (2018-2023) conducted in Switzerland with 1000+ participants.
 
 ## Repository Structure
 
@@ -23,7 +23,8 @@ This repository contains analysis code and data for investigating associations b
 
 ### [Gut Diversity Analysis](analysis/gut_diversity_analysis/)
 - Investigates relationships between dietary patterns and microbiome diversity
-- Includes correlation analysis, effect sizes, and variance decomposition
+- Includes correlation analysis, effect sizes, and explained variances analyses
+- Includes year on year energy intake differences check
 
 ### [Taxa Correlation Analysis](analysis/taxa_correlation_analysis/)
 - Examines correlations between differentially abundant taxa and dietary variables
